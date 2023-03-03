@@ -94,3 +94,22 @@ TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
+
+
+# SHRP Configuration
+SHRP_DEVICE_CODE := KC8
+SHRP_PATH := device/TECNO/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := Techsbyte_(Whale)
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A_Only
+SHRP_REC := /dev/block/platform/bootdevice/by-name/recovery
+SHRP_HAS_RECOVERY_PARTITION := true
+SHRP_AB := true
+SHRP_EDL_MODE := 0
+SHRP_INTERNAL := /sdcard
+SHRP_EXTERNAL := /external_sd
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_NOTCH := true
+SHRP_EXPRESS := true
+SHRP_DARK := true

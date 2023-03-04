@@ -6,18 +6,17 @@
 #
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from TECNO-KC8 device
-$(call inherit-product, device/tecno/KC8/device.mk)
+# Inherit from kc8 device
+$(call inherit-product, device/tecno/kc8/device.mk)
 
-PRODUCT_DEVICE := KC8
-PRODUCT_NAME := omni_KC8
+PRODUCT_DEVICE := kc8
+PRODUCT_NAME := omni_kc8
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO SPARK 4
 PRODUCT_MANUFACTURER := tecno

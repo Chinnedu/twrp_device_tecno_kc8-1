@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_KC8.mk
+    $(LOCAL_DIR)/omni_kc8.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_KC8-user \
-    omni_KC8-userdebug \
-    omni_KC8-eng
+    omni_kc8-user \
+    omni_kc8-userdebug \
+    omni_kc8-eng

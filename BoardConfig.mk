@@ -101,7 +101,7 @@ TW_USE_TOOLBOX := true
 
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
-RECOVERY_SDCARD_ON_DATA := e
+RECOVERY_SDCARD_ON_DATA := true
 TW_INCLUDE_RESETPROP := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
